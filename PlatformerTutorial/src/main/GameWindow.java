@@ -15,6 +15,8 @@ public class GameWindow {
     // Stop program after clicking exit button
     jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     jframe.add(gamePanel);
+    // Spawns terminal in center of screen
+    jframe.setLocationRelativeTo(null);
     // Set Visible should be at the bottom
     jframe.setVisible(true);
   }
